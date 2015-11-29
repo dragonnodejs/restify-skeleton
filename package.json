@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "dragonnodejs": "^6.0.0",
-    "dragonnodejs-restify": "^1.0.0",
+    "dragonnodejs-restify": "^1.0.1",
     "newrelic": "^1.24.0",
     "throng": "^1.0.1"
   },
