@@ -1,0 +1,28 @@
+{
+  "name": "restify-skeleton",
+  "description": "Skeleton for a RestAPI server application with the DragonNode.js framework and restify bundle",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dragonnodejs/restify-skeleton",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "app",
+  "scripts": {
+    "start": "node cluster.js",
+    "test": "mocha -R spec",
+    "watch": "nodemon --watch modules app.js"
+  },
+  "dependencies": {
+    "dragonnodejs": "^6.0.0",
+    "dragonnodejs-restify": "^1.0.0",
+    "newrelic": "^1.24.0",
+    "throng": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dragonnodejs/restify-skeleton.git"
+  }
+}
